@@ -46,10 +46,10 @@ onMounted(() => {
 		</section>
 
 		<section class="create-todo">
-			<h3>CRIAR FAZERES</h3>
+			<h3>CRIAR TODO</h3>
 
 			<form id="new-todo-form" @submit.prevent="addTodo">
-				<h4>O que tem na sua lista de fazeres?</h4>
+				<h4>O que tem na sua lista de TODO?</h4>
 				<input 
 					type="text" 
 					name="content" 
@@ -84,7 +84,7 @@ onMounted(() => {
 
 				</div>
 
-				<input type="submit" value="Add todo" />
+				<input type="submit" value="Adicionar TODO" />
 			</form>
 		</section>
 
